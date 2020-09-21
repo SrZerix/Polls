@@ -1,0 +1,5 @@
+sql
+
+user:root
+
+pass: 1234
