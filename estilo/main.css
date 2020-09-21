@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+#imgHeader{
+    margin-bottom: 10px;
+}
+
+.sizeOne{
+    margin-left: 420px;
+    margin-right: 420px;
+    transition: all 1s;
+}
+
+.sizeTwo{
+    margin-left: 100px;
+    margin-right: 100px;
+    transition: all 1s;
+}
+
+header{
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    background-color: #e2c275;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+main{
+    background-color: #eadca6;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-item{
+    border:0;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(195, 106, 45,0.8);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.nav-item:hover,.buttonSubmit:hover{
+    background-color: rgba(195, 106, 45,1);
+    transform: scale(1.1);
+}
+
+#container{
+    padding: 20px;
+    text-align: center;
+}
+
+#containerForm{
+    background-color: #e2c275;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 10px 40px;
+    max-width: 60%;
+    text-align: center;
+    border:dotted 1px rgba(0,0,0,.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#containerResume{
+    background-color: #e2c275;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 40px 40px;
+    max-width: 85%;
+    text-align: center;
+    border:dotted 1px rgba(0,0,0,.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questions{
+    text-align: left;
+}
+
+#questions li{
+    padding: 15px;
+    display: flex;
+    border-bottom: 1px dotted rgba(0,0,0,.2);
+    list-style-type: none;
+}
+#questions li:last-child{
+    border:0;
+}
+#questions li label:first-child{
+    margin-left: auto;
+}
+
+.buttonSubmit{
+    border:0;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(195, 106, 45,0.8);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.rate[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width:15px;
+    height:15px;
+    background-image: url("../imagenes/star.webp");
+    background-size:cover;
+}
+
+.rate[type="checkbox"]:checked{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width:15px;
+    height:15px;
+    background-image: url("../imagenes/starGold.webp");
+    background-size:cover;
+}
+
+#articlesResume{
+    display: flex;
+    justify-content: space-around;
+}
+
+.resumeDivs{
+    max-width: 20%;
+    max-height: 15%;
+}
